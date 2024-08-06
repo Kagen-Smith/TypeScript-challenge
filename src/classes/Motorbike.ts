@@ -4,7 +4,6 @@ import Wheel from './Wheel.js';
 
 // TODO: The Motorbike class should extend the Vehicle class
 class Motorbike extends Vehicle {
-  
   vin: string;
   color: string;
   make: string;
@@ -13,29 +12,29 @@ class Motorbike extends Vehicle {
   weight: number;
   topSpeed: number;
   wheels: Wheel[];
-
-  constructor(
-    vin: string,
-    color: string,
-    make: string,
-    model: string,
-    year: number,
-    weight: number,
-    topSpeed: number,
-    wheels: Wheel[], =[new Wheel(), new Wheel()] 
+  
+    constructor(
+      vin: string,
+      color: string,
+      make: string,
+      model: string,
+      year: number,
+      weight: number,
+      topSpeed: number,
+      wheels: Wheel[]
     ) {
-  super();
-
-  this.vin = vin;
-  this.color = color;
-  this.make = make;
-  this.model = model;
-  this.year = year;
-  this.weight = weight;
-  this.topSpeed = topSpeed;
-  this.wheels = wheels;
-
-}
+      super();
+    
+      this.vin = vin;
+      this.color = color;
+      this.make = make;
+      this.model = model;
+      this.year = year;
+      this.weight = weight;
+      this.topSpeed = topSpeed;
+      this.wheels = wheels;
+    
+    }
 // TODO: Implement the wheelie method
 // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
 wheelie(): void {
