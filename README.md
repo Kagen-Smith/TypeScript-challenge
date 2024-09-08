@@ -13,7 +13,7 @@
   -[Questions](#questions)
 
   ## Installation
-  you will need to clone the repository to your device. once that is done you will need to navigate to your directory where you stored the repo. there in your console/terminal you will need to run the NPM i command in order to install the needed files onto your local machine. after that you will just need to run npm run start command.
+  you will need to clone the repository to your device. once that is done you will need to navigate to your directory where you stored the repo. there in your console/terminal you will need to run the NPM i command in order to install the needed files onto your local machine. after that you will just need to run npm run start command. here is a video that shows off how the application works, [here](https://youtu.be/euraDMMk0lo)
 
   ## Usage
   
